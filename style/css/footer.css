@@ -1,0 +1,35 @@
+footer .nav {
+  padding: var(--body-pad);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  font-size: 0.75rem;
+  color: var(--text2);
+}
+
+footer .footer {
+  display: flex;
+  gap: 5rem;
+  font-size: 0.75rem;
+  color: var(--text2);
+  padding: calc(var(--body-pad) * 0.75) calc(var(--body-pad) * 5);
+  background-color: var(--card);
+}
+
+footer .footer .logo {
+  color: var(--accent);
+}
+
+footer .footer .logo i {
+  font-size: 1.25rem;
+}
+
+footer .footer .social-media {
+  display: flex;
+  gap: 2rem;
+}
+
+footer .footer .social-media svg {
+  color: var(--text1);
+}

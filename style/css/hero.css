@@ -1,0 +1,46 @@
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.hero .img {
+  background-image: url("../../assets/person.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 40%;
+  height: 441px;
+}
+
+.hero .promotion {
+  width: 40%;
+}
+
+.hero .promotion .me {
+  color: var(--accent);
+  margin-bottom: 0.5rem;
+}
+
+.hero .promotion h2 {
+  font-size: 2.75rem;
+}
+
+.hero .promotion .description {
+  margin: 1rem 0;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+@media screen and (max-width: 460px) {
+  .hero {
+    flex-direction: column;
+  }
+
+  .hero .img,
+  .hero .promotion {
+    padding-inline: 2rem;
+    width: 100%;
+  }
+}

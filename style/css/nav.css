@@ -1,0 +1,35 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 0;
+  padding-top: var(--body-pad);
+  padding-inline: calc(var(--body-pad) * 2);
+}
+
+nav .logo {
+  color: var(--accent);
+}
+
+nav .logo i {
+  font-size: 1.25rem;
+}
+
+nav ul {
+  color: var(--text1);
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  font-size: 0.75rem;
+}
+
+nav ul li {
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 600px) {
+  nav ul {
+    display: none;
+  }
+}

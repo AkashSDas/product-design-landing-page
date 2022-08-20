@@ -1,0 +1,27 @@
+.contact {
+  margin: 0 auto;
+  width: 70%;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5rem;
+  background-color: var(--card);
+}
+
+.contact h2 {
+  font-size: 1.9rem;
+  margin-bottom: 1rem;
+}
+
+.contact p {
+  font-size: 0.8rem;
+  color: var(--text2);
+}
+
+@media screen and (max-width: 768px) {
+  .contact {
+    padding: 1rem;
+    width: 100%;
+  }
+}

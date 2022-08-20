@@ -1,0 +1,7 @@
+.btn {
+  text-transform: uppercase;
+  background-color: var(--accent);
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+  padding: 1rem 2rem;
+  width: max-content;
+}
